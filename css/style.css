@@ -52,6 +52,14 @@ div #about {
 	font-family: 'Permanent Marker', cursive;
 }
 
+#about > h1::before {
+	content: '<'
+}
+
+#about > h1::after {
+	content: '/>'
+}
+
 #about > p {
 	font-family: 'Delius Swash Caps', cursive;
 	font-size: 0.9em;
